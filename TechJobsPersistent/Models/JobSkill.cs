@@ -12,5 +12,10 @@ namespace TechJobsPersistent.Models
         public JobSkill()
         {
         }
+        public JobSkill(int jobId, int skillId)
+        {
+            JobId = jobId;
+            SkillId = skillId;
+        }
     }
 }
